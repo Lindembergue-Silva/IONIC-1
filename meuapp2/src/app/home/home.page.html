@@ -1,0 +1,107 @@
+<!--<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+</ion-content>-->
+
+<hr>
+<ion-accordion-group>
+  <ion-accordion value="first">
+    <ion-item slot="header" color="light">
+      <ion-label> Youtube</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+     <ion-button href="https://www.youtube.com/c/lindemberguesilva"> Lindembergue Youtube</ion-button>
+    </div>
+  </ion-accordion>
+  <ion-accordion value="second">
+    <ion-item slot="header" color="light">
+      <ion-label>Linkedin</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+      <ion-button href="https://br.linkedin.com/in/lindembergue-silva-ba6aa07b?original_referer=https%3A%2F%2Fsearch.brave.com%2F">Contato Profissional</ion-button>
+    </div>
+  </ion-accordion>
+
+  <ion-accordion value="third">
+    <ion-item slot="header" color="light">
+      <ion-label> WhatsApp</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+     <ion-button href="https://api.whatsapp.com/send?phone=5585991941046&text=Ol%C3%A1%20Lindembergue..."> Whats...</ion-button>
+    </div>
+  </ion-accordion>
+
+</ion-accordion-group>
+
+<hr>
+
+
+<ion-content padding>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-img src="/assets/logo.png"></ion-img>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <h2>Alcool ou Gasolina</h2>
+
+        <h4 class="ion-text-center">Saiba qual é a melhor opção para abastecer seu carro.</h4>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+
+        <ion-item >
+          <ion-label position="stacked">Preço Alcool</ion-label>
+          <ion-input type="number" [(ngModel)]="precoAlcool" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Preço Gasolina</ion-label>
+          <ion-input type="number" [(ngModel)]="precoGasolina" ></ion-input>
+        </ion-item>
+        <ion-button expand="full" (click)="calcular()"> Calcular</ion-button>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+
+        <h5 class="ion-text-center">
+         {{resultado}}
+
+        </h5>
+
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+</ion-content>

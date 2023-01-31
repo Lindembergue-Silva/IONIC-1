@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740166041002",
+    "firebase_url": "https://berg-58080.firebaseio.com",
+    "project_id": "berg-58080",
+    "storage_bucket": "berg-58080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740166041002:android:cf16f91bcd410624b97fd3",
+        "android_client_info": {
+          "package_name": "com.misterberg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740166041002-e59t2j2guenqf709efla77rkh7n5jhmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACCsCBMmGaCtxQ2yJ7yasaH-zQCnxrx7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740166041002-e59t2j2guenqf709efla77rkh7n5jhmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
